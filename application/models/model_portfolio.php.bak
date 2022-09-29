@@ -1,0 +1,57 @@
+<?php
+
+class Model_Portfolio extends Model
+{
+	
+	public function get_data()
+	{	
+		
+		// Здесь мы просто сэмулируем реальные данные.
+		
+		return array(
+			
+			array(
+
+	"month" => array("январь"),
+	"lern" => array("html")
+    ),
+
+    array(
+
+        "month" => array("февраль"),
+        "lern" => array("css")
+    ),
+
+    array(
+
+        "month" => array("март"),
+        "lern" => array("javascript")
+    ),
+
+    array(
+
+        "month" => array("апрель"),
+        "lern" => array("php")
+    ),
+
+    array(
+
+        "month" => array("май"),
+        "lern" => array("Работу с базами данных")
+    ),
+    array(
+
+        "month" => array("июнь"),
+        "lern" => array("linux")
+    ),
+
+    array(
+
+        "month" => array("июль"),
+        "lern" => array("ООП")
+    ),
+
+		);
+	}
+
+}
